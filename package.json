@@ -1,6 +1,7 @@
 {
   "name": "telegram-image-uploader",
   "version": "1.0.0",
+  "description": "Express server to upload images and send them to Telegram",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,5 +11,11 @@
     "express": "^4.18.2",
     "form-data": "^4.0.0",
     "multer": "^1.4.5"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [],
+  "author": "Shivam",
+  "license": "MIT"
 }
